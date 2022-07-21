@@ -17,13 +17,15 @@ public class PersonService {
                 
     }
 
-    public List<Person> gPersons(){
+    public List<Person> getPersons() {
         return this.persons;
     }
 
     public void addPerson(Person p) {
         persons.add(new Person(p.getFirstName(), p.getLastName()));
     }
+
+   
 
     
 }
